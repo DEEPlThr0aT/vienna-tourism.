@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vienna Attractions</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="title">Vienna Attractions</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" id="home">Home</a></li>
+                <li><a href="attractions.html" id="attractions">Attractions</a></li>
+            </ul>
+        </nav>
+        <div class="language-switcher">
+            <img src="flag-en.png" alt="English" onclick="switchLanguage('en')">
+            <img src="flag-de.png" alt="Deutsch" onclick="switchLanguage('de')">
+        </div>
+    </header>
+    
+    <main>
+        <section id="attractions-section">
+            <div class="attraction">
+                <img src="schonbrunn.jpg" alt="Schönbrunn Palace" class="attraction-img">
+                <div class="attraction-text">
+                    <h2 id="schonbrunn">Schönbrunn Palace</h2>
+                    <p id="schonbrunn-desc">One of the most beautiful Baroque palaces in Europe.</p>
+                    <p id="schonbrunn-loc"><strong>Location:</strong> Schönbrunner Schloßstraße 47, 1130 Wien, Austria</p>
+                </div>
+            </div>
+            <div class="attraction">
+                <img src="st-stephen.jpg" alt="St. Stephen's Cathedral" class="attraction-img">
+                <div class="attraction-text">
+                    <h2 id="st-stephen">St. Stephen's Cathedral</h2>
+                    <p id="st-stephen-desc">A Gothic masterpiece and Vienna's most important religious building.</p>
+                    <p id="st-stephen-loc"><strong>Location:</strong> Stephansplatz 3, 1010 Wien, Austria</p>
+                </div>
+            </div>
+            <div class="attraction">
+                <img src="belvedere.jpg" alt="Belvedere Palace" class="attraction-img">
+                <div class="attraction-text">
+                    <h2 id="belvedere">Belvedere Palace</h2>
+                    <p id="belvedere-desc">A historic building complex consisting of two Baroque palaces.</p>
+                    <p id="belvedere-loc"><strong>Location:</strong> Prinz Eugen-Straße 27, 1030 Wien, Austria</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Vienna Tourism</p>
+    </footer>
+</body>
+</html>
